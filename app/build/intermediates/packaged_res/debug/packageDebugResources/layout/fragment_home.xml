@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+
+
+        <TextView
+            android:id="@+id/tvWelcomeName"
+
+            android:text="Selamat datang,\nUser!"
+            android:textSize="28sp"
+            android:textColor="@color/text_primary"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Satu aplikasi untuk semua kebutuhan kelas kita."
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#757575"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:text="Jadwal Hari Ini"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/text_primary"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvCurrentDay"
+                android:text="Senin"
+                android:textSize="14sp"
+                android:textColor="@color/blue_btn"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            android:layout_marginBottom="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@color/white"
+                android:minHeight="100dp"
+                android:gravity="center">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvHomeSchedule"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"/> <LinearLayout
+                android:id="@+id/layoutEmptySchedule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="visible"> <ImageView
+                android:src="@drawable/ic_calendar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:tint="#BDBDBD"/>
+
+                <TextView
+                    android:text="Tidak ada jadwal kuliah hari ini"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#757575"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:text="Tugas Mendatang"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            android:layout_marginBottom="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@color/white"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgHomeTaskStatus"
+                    android:src="@drawable/ic_check_box"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    app:tint="#BDBDBD"/>
+
+                <TextView
+                    android:id="@+id/tvHomeTaskTitle"
+                    android:text="Tidak ada tugas mendatang"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/text_primary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tvHomeTaskDate"
+                    android:text=""
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#D32F2F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/btnHomeGoToTask"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat semua tugas"
+                    android:layout_marginTop="15dp"
+                    android:backgroundTint="#F5F5F5"
+                    android:textColor="@color/black"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:text="Filosofi Astrantia"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            android:layout_marginBottom="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:padding="15dp">
+
+                <ImageView
+                    android:src="@drawable/img_astrantia_flower"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:background="#EEE"
+                    android:layout_marginBottom="15dp"/>
+
+                <TextView
+                    android:text="Astrantia Class diambil dari keindahan bunga Astrantia, di mana satu kelopak besar menjadi rumah bagi ratusan bunga kecil yang mekar di atasnya.\n\nSeperti itulah kita di Sistem Informasi A. Meski kita memiliki ribuan cerita berbeda, terbagi dalam berbagai circle dan warna pertemanan yang beragam, kita tetap tumbuh di satu tangkai yang sama.\n\nBunga-bunga kecil itu adalah kita, dengan segala dinamikanya namun tetap satu kesatuan yang utuh dan indah sebagai Astrantia."
+                    android:justificationMode="inter_word"
+                    android:textColor="#424242"
+                    android:lineSpacingExtra="4dp"
+                    android:textSize="14sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+</ScrollView>
