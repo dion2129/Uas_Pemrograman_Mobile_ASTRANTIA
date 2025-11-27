@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/rounded_border">
+
+    <TextView
+        android:id="@+id/tvDialogTitle"
+        android:text="Buat Tugas Baru"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:text="Judul Tugas" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_border"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:imeOptions="actionNext"
+        android:inputType="textCapSentences"
+        android:maxLines="1"/>
+
+    <TextView android:text="Deskripsi" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etTaskDesc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_border"
+        android:padding="10dp"
+        android:gravity="top|start"
+        android:layout_marginBottom="10dp"
+        android:inputType="textMultiLine"
+        android:minLines="3"/>
+
+    <TextView android:text="Deadline" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etTaskDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_border"
+        android:paddingHorizontal="10dp"
+        android:hint="dd MMM yyyy"
+        android:focusable="false"
+        android:clickable="true"
+        android:drawableEnd="@drawable/ic_calendar"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnCancelTask"
+            android:text="Batal"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnSaveTask"
+            android:text="Buat Tugas"
+            android:backgroundTint="@color/blue_btn"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "587302833898",
+    "firebase_url": "https://astrantia-aabb2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "astrantia-aabb2",
+    "storage_bucket": "astrantia-aabb2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587302833898:android:fcaac5e76c6ead25559193",
+        "android_client_info": {
+          "package_name": "com.example.astrantia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAji89JM0vKzKkYkJxI4bNjnfHwEo5w-Mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
