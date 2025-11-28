@@ -117,6 +117,7 @@ layout item_schedule_header
 layout item_task
 menu bottom_nav_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string firebase_database_url

@@ -1,4 +1,4 @@
-#Fri Nov 28 14:30:52 WITA 2025
+#Fri Nov 28 15:46:36 WITA 2025
 base.0=C\:\\Users\\LENOVO\\AndroidStudioProjects\\astrantia\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\LENOVO\\AndroidStudioProjects\\astrantia\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\LENOVO\\AndroidStudioProjects\\astrantia\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex

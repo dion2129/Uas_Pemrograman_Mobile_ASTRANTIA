@@ -4,16 +4,20 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\drawable\\ic_calendar.xml"
     },
     {
+        "merged": "com.example.astrantia.app-debug-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.astrantia.app-main-42:/drawable/ic_launcher_background.xml"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\layout_item_schedule_header.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\layout\\item_schedule_header.xml"
-    },
-    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\layout_item_task.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\layout\\item_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\layout_item_schedule_header.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\layout\\item_schedule_header.xml"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\drawable_rounded_border.xml.flat",
@@ -22,6 +26,14 @@
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\menu_bottom_nav_menu.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\layout_dialog_add_task.xml.flat",
@@ -40,16 +52,28 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\drawable\\ic_check_box.xml"
     },
     {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\layout_item_schedule.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\layout\\item_schedule.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\drawable_img_astrantia_flower.jpg.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\drawable\\img_astrantia_flower.jpg"
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.astrantia.app-debug-40:/layout_activity_main.xml.flat",
-        "source": "com.example.astrantia.app-main-42:/layout/activity_main.xml"
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\drawable_img_astrantia_flower.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\drawable\\img_astrantia_flower.jpg"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -72,6 +96,10 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\drawable_custom_progress_bar.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\drawable\\custom_progress_bar.xml"
     },
@@ -84,6 +112,10 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\layout\\activity_edit_profile.xml"
     },
     {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\drawable_ic_check_circle.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\drawable\\ic_check_circle.xml"
     },
@@ -94,6 +126,10 @@
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\drawable_ic_home.xml.flat",
@@ -120,6 +156,14 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\layout_activity_register.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\layout\\activity_register.xml"
     },
@@ -142,6 +186,14 @@
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\drawable_ic_delete.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -172,6 +224,10 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\drawable\\ic_number.xml"
     },
     {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\layout_fragment_profile.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\layout\\fragment_profile.xml"
     },
@@ -188,11 +244,19 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\drawable\\ic_book_stat.xml"
     },
     {
-        "merged": "com.example.astrantia.app-debug-40:/layout_activity_login.xml.flat",
-        "source": "com.example.astrantia.app-main-42:/layout/activity_login.xml"
-    },
-    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-debug-40:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.13\\com.example.astrantia.app-main-42:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.astrantia.app-debug-40:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.astrantia.app-main-42:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     }
 ]
