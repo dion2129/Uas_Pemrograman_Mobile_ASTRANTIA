@@ -91,7 +91,7 @@
                 android:src="@drawable/ic_book_stat"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:tint="@color/purple_icon"/>
+                app:tint="@color/black"/>
 
             <TextView
                 android:id="@+id/tvStatMatkul"
@@ -136,7 +136,7 @@
                         android:src="@drawable/ic_task"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        app:tint="@color/purple_icon"/>
+                        app:tint="@color/black"/>
 
                     <TextView
                         android:id="@+id/tvStatTotalTugas"
@@ -177,7 +177,7 @@
                         android:src="@drawable/ic_task_done"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        app:tint="@color/purple_icon"/>
+                        app:tint="@color/black"/>
 
                     <TextView
                         android:id="@+id/tvStatTugasSelesai"
@@ -204,8 +204,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Edit Profil"
-            android:backgroundTint="#EEEEEE"
-            android:textColor="@color/black"
+            android:backgroundTint="#333333"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:layout_marginBottom="10dp"/>
 
@@ -214,8 +214,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="LOGOUT"
-            android:backgroundTint="#FFEBEE"
-            android:textColor="#D32F2F"
+            android:backgroundTint="@color/red_delete"
+            android:textColor="@color/white"
             android:textStyle="bold"/>
 
         <View android:layout_width="match_parent" android:layout_height="50dp"/>

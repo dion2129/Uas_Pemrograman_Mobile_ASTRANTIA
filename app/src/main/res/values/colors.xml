@@ -6,7 +6,7 @@
     <color name="bg_color">#E8F5E9</color>
     <color name="text_primary">#1F1F1F</color>
     <color name="blue_btn">#1565C0</color>
-    <color name="purple_icon">#E040FB</color>
+    <color name="purple_icon">#140E16</color>
     <color name="grey_bg_item">#F5F5F5</color>
     <color name="red_delete">#D32F2F</color>
 </resources>
